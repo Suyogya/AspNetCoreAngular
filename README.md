@@ -182,3 +182,8 @@ Also, set `compileOnSave` and run `tsc -w` on the project folder.
 Exclude `wwwroot` and `node_modules` since we don't need to compile those.
 
 For everything else follow the Angular2-quickstart guide, it should be working.
+
+# References:
+- [ASP.NET Core 1.0 Fundamentals by Scott Allen on Pluralsight](https://app.pluralsight.com/library/courses/aspdotnet-core-1-0-fundamentals/)
+- [ASP.NET Core 1.0 Documentation](https://docs.asp.net/en/latest/)
+- [Angular 2 Quickstart](https://angular.io/docs/ts/latest/quickstart.html)
