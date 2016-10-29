@@ -20,13 +20,13 @@ npm install -g yo
 npm install -g generator-aspnet
 ```
 4. Run ASP.NET generator
-```
+```                 
 npm install -g generator-aspnet
 ```
 
 5. Select "Empty Web Application" from the options given.
 
-You should now have a Web Application. If you start a terminal/command prompt and run following command inside the project folder:
+We should now have a Web Application. If we start a terminal/command prompt and run following command inside the project folder:
 ```
 dotnet restore
 
@@ -37,7 +37,7 @@ dotnet run
 
 This will start the web application listening at port 5000 (default in asp.net core generated application)
 
-If you browse [http://localhost:5000](http://localhost:5000), it will display,
+If we browse [http://localhost:5000](http://localhost:5000), it will display,
 ```
 Hello World!
 ```
@@ -65,7 +65,7 @@ public class Startup
 }
 ```
 
-Add `appsettings.json` and `appsettings.<env>.json`, for whichever environment you are running, under project folder.
+Add `appsettings.json` and `appsettings.<env>.json`, for whichever environment we are running, under project folder.
 
 ### Static File Server for wwwroot
 To serve the files inside `wwwroot` folder, we need to add a middleware. Just change the, `Configure` method in `Startup.cs`.
@@ -142,7 +142,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 }
 ```
 
-You can now run the application and it should be able to serve files under `node_modules`
+We can now run the application and it should be able to serve files under `node_modules`
 
 ## Setting up Angular
 Here I am going to follow Angular Quickstart documentation as closely as possible.
