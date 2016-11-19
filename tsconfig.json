@@ -8,12 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false,
-    "outDir": "./wwwroot/app"
-  },
-  "compileOnSave": true,
-  "exclude": [
-    "node_modules",
-    "wwwroot"
-  ]
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  }
 }
